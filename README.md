@@ -2,7 +2,35 @@
 
 A universal, agent-agnostic repository of skills for AI coding agents. Supports **OpenCode**, **Claude Code**, **GitHub Copilot**, **Cursor**, and any agent that can read Markdown skill definitions.
 
-## Quick Start
+## Install from a URL (any agent)
+
+Tell your agent:
+
+> Install the skills from `https://github.com/digodps/agent-skills` into this environment.
+
+The agent runs one command, no cloning needed:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/digodps/agent-skills/master/install-remote.sh | bash -s <agent> [skill ...] [--tag tags]
+```
+
+Agents supported by `<agent>`: `opencode`, `claude`, `copilot`, `cursor`, `all`.
+Omit skill names to install everything.
+
+Examples:
+
+```bash
+# OpenCode: all skills
+curl -fsSL https://raw.githubusercontent.com/digodps/agent-skills/master/install-remote.sh | bash -s opencode
+
+# Claude Code: python + backend only
+curl -fsSL https://raw.githubusercontent.com/digodps/agent-skills/master/install-remote.sh | bash -s claude --tag python,backend
+
+# Project-local Copilot rules
+curl -fsSL https://raw.githubusercontent.com/digodps/agent-skills/master/install-remote.sh | bash -s copilot commit create-skill
+```
+
+## Quick Start (local clone)
 
 ```bash
 # Clone the repository
