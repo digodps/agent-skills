@@ -1,0 +1,858 @@
+{
+  "generated": "2026-11-14T19:52:17",
+  "count": 66,
+  "skills": [
+    {
+      "name": "antigravity-skills-manager",
+      "display_name": "antigravity-skills-manager",
+      "description": "Searches, installs, updates, and lists skills from the Antigravity Skill Vault. Use when choosing or managing workspace or global skills through the npm CLI.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "name": "api-design-principles",
+      "display_name": "api-design-principles",
+      "description": "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or establishing API design standards.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "backend",
+        "architecture"
+      ]
+    },
+    {
+      "name": "api-documenter",
+      "display_name": "api-documenter",
+      "description": "Master API documentation with OpenAPI 3.1, AI-powered tools, and",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "backend",
+        "architecture"
+      ]
+    },
+    {
+      "name": "api-testing-observability-api-mock",
+      "display_name": "api-testing-observability-api-mock",
+      "description": "You are an API mocking expert specializing in realistic mock services for development, testing, and demos. Design mocks that simulate real API behavior and enable parallel development.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "backend",
+        "architecture"
+      ]
+    },
+    {
+      "name": "async-python-patterns",
+      "display_name": "async-python-patterns",
+      "description": "Master Python asyncio, concurrent programming, and async/await patterns for high-performance applications. Use when building async APIs, concurrent systems, or I/O-bound applications requiring non-blocking operations.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "python",
+        "backend"
+      ]
+    },
+    {
+      "name": "backend-architect",
+      "display_name": "backend-architect",
+      "description": "Expert backend architect specializing in scalable API design,",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "backend",
+        "architecture"
+      ]
+    },
+    {
+      "name": "backend-development-feature-development",
+      "display_name": "backend-development-feature-development",
+      "description": "Orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "backend",
+        "architecture"
+      ]
+    },
+    {
+      "name": "backend-security-coder",
+      "display_name": "backend-security-coder",
+      "description": "Expert in secure backend coding practices specializing in input",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "backend",
+        "architecture"
+      ]
+    },
+    {
+      "name": "code-review",
+      "display_name": "code-review",
+      "description": "",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "name": "commit",
+      "display_name": "commit",
+      "description": "Padroniza commits em blocos lógicos seguindo Conventional Commits com emoji. Valida OpenSpec ativo; sem OpenSpec, infere contexto dos arquivos alterados.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "name": "create-skill",
+      "display_name": "create-skill",
+      "description": "Cria ou atualiza skill usando proposta OpenSpec como fonte e sincroniza todos clientes.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "name": "csharp-pro",
+      "display_name": "csharp-pro",
+      "description": "Write modern C# code with advanced features like records, pattern",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "csharp",
+        "backend"
+      ]
+    },
+    {
+      "name": "deploy",
+      "display_name": "deploy",
+      "description": "Compila o branch atual, publica Vue e .NET em imagem Docker, recria o container e valida health.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "devops",
+        "deployment"
+      ]
+    },
+    {
+      "name": "dev-spec",
+      "display_name": "dev-spec",
+      "description": "Orquestração de desenvolvimento multi-agente para OpenSpec (Backend .NET, Frontend Vue 3 e Tester com 100% de sucesso, commits semânticos e PR).",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "name": "django-pro",
+      "display_name": "django-pro",
+      "description": "Master Django 5.x with async views, DRF, Celery, and Django",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "go",
+        "backend"
+      ]
+    },
+    {
+      "name": "dotnet-architect",
+      "display_name": "dotnet-architect",
+      "description": "Expert .NET backend architect specializing in C#, ASP.NET Core,",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "csharp",
+        "backend"
+      ]
+    },
+    {
+      "name": "dotnet-backend-patterns",
+      "display_name": "dotnet-backend-patterns",
+      "description": "Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Covers async/await, dependency injection, Entity Framework Core, Dapper, configuration, caching, and testing with xUnit. Use when developing .NET backends, reviewing C# code, or designing API architectures.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "csharp",
+        "backend"
+      ]
+    },
+    {
+      "name": "egm",
+      "display_name": "egm",
+      "description": "",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "openspec",
+        "workflow"
+      ]
+    },
+    {
+      "name": "egm-openspec",
+      "display_name": "egm-openspec",
+      "description": "Orquestra implementação OpenSpec criando uma worktree isolada como primeiro passo, seguida de EGM prévio, commit dos artefatos, apply instructions e QA iterativo até PASS. Ao digitar /egm-openspec pegará do contexto o nome do spec e já iniciará o workflow.",
+      "allowed_tools": "Bash(openspec:*), Bash(npx playwright:*), Bash(git status:*), Bash(git add:*), Bash(git commit:*), Bash(git worktree:*), Bash(git rev-parse:*), Bash(./scripts/build.sh:*), Bash(docker:*), Bash(npm:*), Bash(dotnet:*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "openspec",
+        "workflow"
+      ]
+    },
+    {
+      "name": "fastapi-pro",
+      "display_name": "fastapi-pro",
+      "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "python",
+        "backend",
+        "api"
+      ]
+    },
+    {
+      "name": "fastapi-templates",
+      "display_name": "fastapi-templates",
+      "description": "Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "python",
+        "backend",
+        "api"
+      ]
+    },
+    {
+      "name": "flutter-expert",
+      "display_name": "flutter-expert",
+      "description": "Master Flutter development with Dart 3, advanced widgets, and",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "mobile",
+        "frontend"
+      ]
+    },
+    {
+      "name": "frontend-developer",
+      "display_name": "frontend-developer",
+      "description": "Build React components, implement responsive layouts, and handle",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "frontend",
+        "react"
+      ]
+    },
+    {
+      "name": "frontend-mobile-development-component-scaffold",
+      "display_name": "frontend-mobile-development-component-scaffold",
+      "description": "Scaffold React and React Native components with TypeScript, accessibility, styles, and tests. Use when building reusable UI components or establishing component structure.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "mobile",
+        "frontend"
+      ]
+    },
+    {
+      "name": "frontend-mobile-security-xss-scan",
+      "display_name": "frontend-mobile-security-xss-scan",
+      "description": "Detect and remediate XSS risks in React, Vue, Angular, and browser JavaScript. Use when inspecting injection sinks, untrusted markup, sanitization, or frontend security checks.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "mobile",
+        "frontend"
+      ]
+    },
+    {
+      "name": "frontend-security-coder",
+      "display_name": "frontend-security-coder",
+      "description": "Expert in secure frontend coding practices specializing in XSS",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "frontend",
+        "react"
+      ]
+    },
+    {
+      "name": "go-concurrency-patterns",
+      "display_name": "go-concurrency-patterns",
+      "description": "Master Go concurrency with goroutines, channels, sync primitives, and context. Use when building concurrent Go applications, implementing worker pools, or debugging race conditions.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "go",
+        "backend"
+      ]
+    },
+    {
+      "name": "golang-pro",
+      "display_name": "golang-pro",
+      "description": "Master Go 1.21+ with modern patterns, advanced concurrency,",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "go",
+        "backend"
+      ]
+    },
+    {
+      "name": "ios-developer",
+      "display_name": "ios-developer",
+      "description": "Develop native iOS applications with Swift/SwiftUI. Masters iOS 18,",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "mobile",
+        "frontend"
+      ]
+    },
+    {
+      "name": "java-pro",
+      "display_name": "java-pro",
+      "description": "Master Java 21+ with modern features like virtual threads, pattern",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "java",
+        "backend"
+      ]
+    },
+    {
+      "name": "javascript-pro",
+      "display_name": "javascript-pro",
+      "description": "Master modern JavaScript with ES6+, async patterns, and Node.js",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "name": "javascript-testing-patterns",
+      "display_name": "javascript-testing-patterns",
+      "description": "Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development. Use when writing JavaScript/TypeScript tests, setting up test infrastructure, or implementing TDD/BDD workflows.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "name": "javascript-typescript-typescript-scaffold",
+      "display_name": "javascript-typescript-typescript-scaffold",
+      "description": "Scaffold TypeScript applications with project structure, build tools, type checking, and tests. Use when starting a Node.js or frontend project or standardizing its development setup.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "name": "mcp-dev",
+      "display_name": "mcp-dev",
+      "description": "Servidor MCP dedicado a ferramentas de desenvolvimento (melhores práticas, mapa do código, validação de commits).",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "mcp",
+        "tools"
+      ]
+    },
+    {
+      "name": "mobile-developer",
+      "display_name": "mobile-developer",
+      "description": "Develop React Native, Flutter, or native mobile apps with modern",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "mobile",
+        "frontend"
+      ]
+    },
+    {
+      "name": "mobile-security-coder",
+      "display_name": "mobile-security-coder",
+      "description": "Expert in secure mobile coding practices specializing in input",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "mobile",
+        "frontend"
+      ]
+    },
+    {
+      "name": "modern-javascript-patterns",
+      "display_name": "modern-javascript-patterns",
+      "description": "Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional programming patterns for writing clean, efficient JavaScript code. Use when refactoring legacy code, implementing modern patterns, or optimizing JavaScript applications.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "name": "nextjs-app-router-patterns",
+      "display_name": "nextjs-app-router-patterns",
+      "description": "Master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, implementing SSR/SSG, or optimizing React Server Components.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "frontend",
+        "react"
+      ]
+    },
+    {
+      "name": "nodejs-backend-patterns",
+      "display_name": "nodejs-backend-patterns",
+      "description": "Build production-ready Node.js backend services with Express/Fastify, implementing middleware patterns, error handling, authentication, database integration, and API design best practices. Use when creating Node.js servers, REST APIs, GraphQL backends, or microservices architectures.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "name": "openapi-spec-generation",
+      "display_name": "openapi-spec-generation",
+      "description": "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "backend",
+        "architecture"
+      ]
+    },
+    {
+      "name": "openspec-apply-change",
+      "display_name": "openspec-apply-change",
+      "description": "Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks. Also use when the user says \"openspec apply\", \"opsx apply\", or \"openspec implement\".",
+      "allowed_tools": "Bash(openspec:*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "openspec",
+        "workflow"
+      ]
+    },
+    {
+      "name": "openspec-archive-change",
+      "display_name": "openspec-archive-change",
+      "description": "Archive a completed OpenSpec change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete. Also use when the user says \"openspec archive\" or \"opsx archive\".",
+      "allowed_tools": "Bash(openspec:*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "openspec",
+        "workflow"
+      ]
+    },
+    {
+      "name": "openspec-explore",
+      "display_name": "openspec-explore",
+      "description": "Enter OpenSpec explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements in a project that uses OpenSpec. Use when the user wants to think through something before or during an OpenSpec change. Also use when the user says \"openspec explore\" or \"opsx explore\".",
+      "allowed_tools": "Bash(openspec:*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "openspec",
+        "workflow"
+      ]
+    },
+    {
+      "name": "openspec-propose",
+      "display_name": "openspec-propose",
+      "description": "Propose a new OpenSpec change with all artifacts generated in one step. Use when the user wants to quickly describe what they want to build and get a complete proposal with design, specs, and tasks ready for implementation. Also use when the user says \"openspec propose\" or \"opsx propose\".",
+      "allowed_tools": "Bash(openspec:*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "openspec",
+        "workflow"
+      ]
+    },
+    {
+      "name": "openspec-sync-specs",
+      "display_name": "openspec-sync-specs",
+      "description": "Sync delta specs from an OpenSpec change to main specs. Use when the user wants to update main specs with changes from a delta spec, without archiving the change. Also use when the user says \"openspec sync\" or \"opsx sync\".",
+      "allowed_tools": "Bash(openspec:*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "openspec",
+        "workflow"
+      ]
+    },
+    {
+      "name": "openspec-update-change",
+      "display_name": "openspec-update-change",
+      "description": "Update an OpenSpec change by revising its existing planning artifacts and keeping them coherent with one another. Use when the user wants to revise a change's plan, fold new decisions into it, or reconcile its artifacts after an edit. Also use when the user says \"openspec update change\" or \"opsx update\". If the user means the openspec update CLI command, which refreshes generated files, run that command instead. Never edits code.",
+      "allowed_tools": "Bash(openspec:*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "openspec",
+        "workflow"
+      ]
+    },
+    {
+      "name": "php-pro",
+      "display_name": "php-pro",
+      "description": "Write idiomatic PHP code with generators, iterators, SPL data",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "php",
+        "backend"
+      ]
+    },
+    {
+      "name": "python-development-python-scaffold",
+      "display_name": "python-development-python-scaffold",
+      "description": "Scaffold Python projects with uv, package structure, type checking, and tests. Use when starting applications, services, or libraries with a consistent development setup.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "python",
+        "backend"
+      ]
+    },
+    {
+      "name": "python-packaging",
+      "display_name": "python-packaging",
+      "description": "Create distributable Python packages with proper project structure, setup.py/pyproject.toml, and publishing to PyPI. Use when packaging Python libraries, creating CLI tools, or distributing Python code.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "python",
+        "backend"
+      ]
+    },
+    {
+      "name": "python-performance-optimization",
+      "display_name": "python-performance-optimization",
+      "description": "Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "python",
+        "backend"
+      ]
+    },
+    {
+      "name": "python-pro",
+      "display_name": "python-pro",
+      "description": "Master Python 3.12+ with modern features, async programming,",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "python",
+        "backend"
+      ]
+    },
+    {
+      "name": "python-testing-patterns",
+      "display_name": "python-testing-patterns",
+      "description": "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "python",
+        "backend"
+      ]
+    },
+    {
+      "name": "react-modernization",
+      "display_name": "react-modernization",
+      "description": "Upgrade React applications to latest versions, migrate from class components to hooks, and adopt concurrent features. Use when modernizing React codebases, migrating to React Hooks, or upgrading to latest React versions.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "frontend",
+        "react"
+      ]
+    },
+    {
+      "name": "react-native-architecture",
+      "display_name": "react-native-architecture",
+      "description": "Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, implementing native integrations, or architecting React Native projects.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "mobile",
+        "frontend"
+      ]
+    },
+    {
+      "name": "react-state-management",
+      "display_name": "react-state-management",
+      "description": "Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "frontend",
+        "react"
+      ]
+    },
+    {
+      "name": "ruby-pro",
+      "display_name": "ruby-pro",
+      "description": "Write idiomatic Ruby code with metaprogramming, Rails patterns, and",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "ruby",
+        "backend"
+      ]
+    },
+    {
+      "name": "rust-async-patterns",
+      "display_name": "rust-async-patterns",
+      "description": "Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns. Use when building async Rust applications, implementing concurrent systems, or debugging async code.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "rust",
+        "backend"
+      ]
+    },
+    {
+      "name": "rust-pro",
+      "display_name": "rust-pro",
+      "description": "Master Rust 1.75+ with modern async patterns, advanced type system",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "rust",
+        "backend"
+      ]
+    },
+    {
+      "name": "systems-programming-rust-project",
+      "display_name": "systems-programming-rust-project",
+      "description": "Scaffold Rust projects with Cargo, module organization, testing, and development tooling. Use when starting Rust applications or libraries and establishing their project structure.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "rust",
+        "backend"
+      ]
+    },
+    {
+      "name": "temporal-python-pro",
+      "display_name": "temporal-python-pro",
+      "description": "Master Temporal workflow orchestration with Python SDK. Implements",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "python",
+        "backend"
+      ]
+    },
+    {
+      "name": "temporal-python-testing",
+      "display_name": "temporal-python-testing",
+      "description": "Test Temporal workflows with pytest, time-skipping, and mocking strategies. Covers unit testing, integration testing, replay testing, and local development setup. Use when implementing Temporal workflow tests or debugging test failures.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "python",
+        "backend"
+      ]
+    },
+    {
+      "name": "teste-aceitacao",
+      "display_name": "teste-aceitacao",
+      "description": "",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "testing"
+      ]
+    },
+    {
+      "name": "teste-auth",
+      "display_name": "teste-auth",
+      "description": "Skill de teste autenticação via OpenSpec",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "testing"
+      ]
+    },
+    {
+      "name": "typescript-advanced-types",
+      "display_name": "typescript-advanced-types",
+      "description": "Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating reusable type utilities, or ensuring compile-time type safety in TypeScript projects.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "name": "typescript-pro",
+      "display_name": "typescript-pro",
+      "description": "Master TypeScript with advanced types, generics, and strict type",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "name": "uv-package-manager",
+      "display_name": "uv-package-manager",
+      "description": "Master the uv package manager for fast Python dependency management, virtual environments, and modern Python project workflows. Use when setting up Python projects, managing dependencies, or optimizing Python development workflows with uv.",
+      "allowed_tools": "Bash(*)",
+      "license": "MIT",
+      "author": "",
+      "version": "1.0",
+      "tags": [
+        "general"
+      ]
+    }
+  ]
+}
