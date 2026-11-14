@@ -140,19 +140,6 @@ Install specific skills only:
 3. Run `./scripts/update-registry.sh` to update `registry.json`
 4. Commit and push
 
-## Project-Specific Skills (removed)
-
-The following were from plex-autoplay and have been removed as they contained hardcoded paths:
-
-- `deploy` - referenced `scripts/build.sh`, `DEVELOPMENT_GUIDE.md`
-- `dev-spec` - referenced `DEVELOPMENT_GUIDE.md`, used mcp-dev
-- `mcp-dev` - referenced plex-autoplay project structure
-- `teste-aceitacao` / `teste-auth` - project-specific test patterns
-- `create-skill` - tied to OpenSpec workflow
-- `code-review` - project-specific
-
-For project-specific skills, fork and adapt.
-
 ## Source
 
 - 49 global skills from `~/.config/opencode/skills` (Antigravity Skill Vault)
