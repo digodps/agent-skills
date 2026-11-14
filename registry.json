@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14T19:52:17",
-  "count": 66,
+  "generated": "2026-11-14T20:00:33",
+  "count": 64,
   "skills": [
     {
       "name": "antigravity-skills-manager",
@@ -165,18 +165,6 @@
       "tags": [
         "devops",
         "deployment"
-      ]
-    },
-    {
-      "name": "dev-spec",
-      "display_name": "dev-spec",
-      "description": "Orquestração de desenvolvimento multi-agente para OpenSpec (Backend .NET, Frontend Vue 3 e Tester com 100% de sucesso, commits semânticos e PR).",
-      "allowed_tools": "Bash(*)",
-      "license": "MIT",
-      "author": "",
-      "version": "1.0",
-      "tags": [
-        "general"
       ]
     },
     {
@@ -426,19 +414,6 @@
       "tags": [
         "javascript",
         "frontend"
-      ]
-    },
-    {
-      "name": "mcp-dev",
-      "display_name": "mcp-dev",
-      "description": "Servidor MCP dedicado a ferramentas de desenvolvimento (melhores práticas, mapa do código, validação de commits).",
-      "allowed_tools": "Bash(*)",
-      "license": "MIT",
-      "author": "",
-      "version": "1.0",
-      "tags": [
-        "mcp",
-        "tools"
       ]
     },
     {
