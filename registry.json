@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14T20:00:33",
-  "count": 64,
+  "generated": "2026-11-14T20:05:57",
+  "count": 59,
   "skills": [
     {
       "name": "antigravity-skills-manager",
@@ -106,33 +106,9 @@
       ]
     },
     {
-      "name": "code-review",
-      "display_name": "code-review",
-      "description": "",
-      "allowed_tools": "Bash(*)",
-      "license": "MIT",
-      "author": "",
-      "version": "1.0",
-      "tags": [
-        "general"
-      ]
-    },
-    {
       "name": "commit",
       "display_name": "commit",
       "description": "Padroniza commits em blocos lógicos seguindo Conventional Commits com emoji. Valida OpenSpec ativo; sem OpenSpec, infere contexto dos arquivos alterados.",
-      "allowed_tools": "Bash(*)",
-      "license": "MIT",
-      "author": "",
-      "version": "1.0",
-      "tags": [
-        "general"
-      ]
-    },
-    {
-      "name": "create-skill",
-      "display_name": "create-skill",
-      "description": "Cria ou atualiza skill usando proposta OpenSpec como fonte e sincroniza todos clientes.",
       "allowed_tools": "Bash(*)",
       "license": "MIT",
       "author": "",
@@ -152,19 +128,6 @@
       "tags": [
         "csharp",
         "backend"
-      ]
-    },
-    {
-      "name": "deploy",
-      "display_name": "deploy",
-      "description": "Compila o branch atual, publica Vue e .NET em imagem Docker, recria o container e valida health.",
-      "allowed_tools": "Bash(*)",
-      "license": "MIT",
-      "author": "",
-      "version": "1.0",
-      "tags": [
-        "devops",
-        "deployment"
       ]
     },
     {
@@ -765,30 +728,6 @@
       "tags": [
         "python",
         "backend"
-      ]
-    },
-    {
-      "name": "teste-aceitacao",
-      "display_name": "teste-aceitacao",
-      "description": "",
-      "allowed_tools": "Bash(*)",
-      "license": "MIT",
-      "author": "",
-      "version": "1.0",
-      "tags": [
-        "testing"
-      ]
-    },
-    {
-      "name": "teste-auth",
-      "display_name": "teste-auth",
-      "description": "Skill de teste autenticação via OpenSpec",
-      "allowed_tools": "Bash(*)",
-      "license": "MIT",
-      "author": "",
-      "version": "1.0",
-      "tags": [
-        "testing"
       ]
     },
     {

@@ -83,15 +83,11 @@ metadata:
 Markdown documentation...
 ```
 
-## Available Skills (66)
+## Available Skills (59)
 
 ### Core Workflow
 - `commit` - Conventional Commits with emoji
-- `create-skill` - Create skills from OpenSpec proposals
-- `code-review` - Automated code review
-- `deploy` - Build & deploy pipeline
-- `dev-spec` - Multi-agent OpenSpec development
-- `mcp-dev` - MCP development server tools
+- `egm-openspec` - EGM + OpenSpec workflow (worktree, EGM, apply, QA loop)
 
 ### OpenSpec
 - `openspec-propose` - Propose new changes
@@ -100,7 +96,6 @@ Markdown documentation...
 - `openspec-update-change` - Update change plans
 - `openspec-sync-specs` - Sync delta specs to main
 - `openspec-archive-change` - Archive completed changes
-- `egm-openspec` - EGM + OpenSpec workflow
 
 ### Language/Framework Experts
 - `python-pro`, `async-python-patterns`, `python-testing-patterns`, `python-packaging`, `python-performance-optimization`, `python-development-python-scaffold`
@@ -121,10 +116,6 @@ Markdown documentation...
 - `api-design-principles`, `api-documenter`, `api-testing-observability-api-mock`, `openapi-spec-generation`
 - `react-native-architecture`
 
-### Testing & Quality
-- `teste-aceitacao` - E2E acceptance testing
-- `teste-auth` - Auth testing via OpenSpec
-
 ### Utilities
 - `antigravity-skills-manager` - Manage skills from Skill Vault
 - `report` - Report OpenCode issues
@@ -135,7 +126,7 @@ Install specific skills only:
 
 ```bash
 # Install single skill
-./install.sh opencode commit create-skill
+./install.sh opencode commit
 
 # Install by tag
 ./install.sh opencode --tag python
@@ -149,16 +140,18 @@ Install specific skills only:
 3. Run `./scripts/update-registry.sh` to update `registry.json`
 4. Commit and push
 
-## Project-Specific Skills
+## Project-Specific Skills (removed)
 
-Some skills in this repo originate from a specific project (plex-autoplay) and contain hardcoded paths:
+The following were from plex-autoplay and have been removed as they contained hardcoded paths:
 
-- `deploy` - references `scripts/build.sh`, `DEVELOPMENT_GUIDE.md`
-- `dev-spec` - references `DEVELOPMENT_GUIDE.md`, uses mcp-dev
-- `mcp-dev` - references plex-autoplay project structure
+- `deploy` - referenced `scripts/build.sh`, `DEVELOPMENT_GUIDE.md`
+- `dev-spec` - referenced `DEVELOPMENT_GUIDE.md`, used mcp-dev
+- `mcp-dev` - referenced plex-autoplay project structure
 - `teste-aceitacao` / `teste-auth` - project-specific test patterns
+- `create-skill` - tied to OpenSpec workflow
+- `code-review` - project-specific
 
-These work as-is in their original project. For other projects, either fork and adapt, or skip them with `--tag` filters.
+For project-specific skills, fork and adapt.
 
 ## Source
 
